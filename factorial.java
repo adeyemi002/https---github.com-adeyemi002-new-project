@@ -5,9 +5,9 @@ public class factorial {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number to calculate its factorial: ");
-        int numberr = scanner.nextInt();
+        int number = scanner.nextInt();
 
-        long factorial = calculateFactorial(numberr);
+        long factorial = calculateFactorial(number);
 
         System.out.println("Factorial of " + number + " is: " + factorial);
 
